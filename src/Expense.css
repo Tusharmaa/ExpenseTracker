@@ -1,0 +1,184 @@
+.expense {
+  display: flex;
+  flex-direction: column;
+}
+
+.expense-header {
+  width: 100%;
+  height: 45vh;
+  background-image: url("https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  background-size: cover;
+}
+
+.expense-headerText {
+  margin-top: 30px;
+  width: 50%;
+  border-radius: 15px;
+  margin: 30px auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  min-width: 300px;
+  padding: 0.5%;
+  box-shadow: 0px 1px 8px black;
+}
+
+.expense-headerText > h1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 500;
+  max-width: 600px;
+  margin: 2px auto;
+  color: white;
+}
+
+.expense-headerTextIncome {
+  display: flex;
+  width: 50%;
+  margin: 10px auto;
+  padding: 1%;
+  justify-content: center;
+  background-color: rgb(0, 201, 201);
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0px 1px 8px gray;
+}
+
+.expense-headerTextExpense {
+  display: flex;
+  width: 50%;
+  margin: 10px auto;
+  padding: 1%;
+  justify-content: center;
+  background-color: rgb(255, 84, 22);
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0px 1px 4px gray;
+}
+
+.expense-headerTextIncome > h4,
+.expense-headerTextExpense > h4 {
+  flex: 1;
+  font-size: 25px;
+}
+
+.expense-headerTextIncome > p,
+.expense-headerTextExpense > p {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.expense-bodyValues {
+  display: flex;
+  height: 55px;
+  padding: 0.5%;
+  background-color: #dddada;
+  justify-content: center;
+}
+
+.expense-bodyValues > select {
+  width: 50px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 10px;
+  outline: none;
+}
+
+.expense-bodyValuesInput1 {
+  width: 30vw;
+  border: none;
+  border-radius: 8px;
+  padding: 0 1%;
+  margin-right: 10px;
+  outline: none;
+  font-size: 16px;
+}
+
+.expense-bodyValuesInput2 {
+  width: 10vw;
+  border: none;
+  border-radius: 8px;
+  padding: 0 1%;
+  margin-right: 10px;
+  outline: none;
+  font-size: 16px;
+}
+
+.expense-bodyOutput {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1%;
+}
+
+.expense-bodyOutputIncome,
+.expense-bodyOutputExpense {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 20vh;
+}
+.expense-bodyOutputIncome > h1 {
+  color: rgb(0, 201, 201);
+  padding: 1%;
+}
+
+.expense-bodyOutputExpense > h1 {
+  color: rgb(255, 84, 22);
+  padding: 1%;
+}
+
+.expense-bodyOutputIncomeWrapper,
+.expense-bodyOutputExpenseWrapper {
+  display: flex;
+  align-content: center;
+}
+
+.buttonPlus {
+  color: green;
+  margin-top: 14px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.buttonMinus {
+  color: red;
+  margin-top: 14px;
+  cursor: pointer;
+}
+
+.expense-bodyOutputIncomeDesc,
+.expense-bodyOutputExpenseDesc {
+  flex: 0.5;
+}
+
+.expense-bodyOutputIncomeNumber,
+.expense-bodyOutputExpenseNumber {
+  flex: 0.5;
+}
+
+.expense-bodyOutputIncomeNumberElements {
+  background-color: rgb(205, 255, 255);
+  border-radius: 15px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  /* padding: 3%; */
+  padding: 5%;
+  text-align: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600px;
+}
+
+.expense-bodyOutputExpenseNumberElements {
+  background-color: rgb(255, 194, 172);
+  border-radius: 15px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  /* padding: 3%; */
+  padding: 5%;
+  text-align: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600px;
+}
+
+/* https://images.pexels.com/photos/53621/calculator-calculation-insurance-finance-53621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 */
